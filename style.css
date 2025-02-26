@@ -1,8 +1,22 @@
+header {
+    font-size: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
 header section.bar {
     display: flex;
-    justify-content: end;
+    flex-wrap: wrap;
+
+    font-size: 50px;
+}
+header section.bar ul li {
+    list-style: none;
 }
 header section.bar ul li a {
-    list-style: none;
+    color: black;
     text-decoration: none;
+}
+header section.bar ul li :hover{
+    color: orange   ;
 }
